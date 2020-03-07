@@ -67,5 +67,4 @@ public class QuadradoTeste {
         assertEquals(2.0, q1.getLado());
     }
 
-    @
 }
