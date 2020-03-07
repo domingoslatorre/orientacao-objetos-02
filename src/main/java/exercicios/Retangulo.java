@@ -29,10 +29,14 @@ public class Retangulo {
         return base;
     }
 
-    public void setAltura(Double base) throws IllegalAccessException {
+    public void setAltura(Double altura) throws IllegalAccessException {
         if ( altura <= 0.0 )
             throw new IllegalArgumentException("Valor deve ser maior que zero.");
         this.altura = altura;
+    }
+
+    public Double getAltura() {
+        return altura;
     }
 
 }
